@@ -10,6 +10,5 @@ dependencies:
  - ipywidgets
  # - jupyter
  # - jupyterlab
- - pip:
-   - segyio
-   - tqdm
+ - segyio
+ - tqdm
