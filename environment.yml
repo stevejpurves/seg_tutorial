@@ -1,7 +1,7 @@
 name: seg-tutorial-phase
 channels:
+  - https://repo.mamba.pm/emscripten-forge
   - conda-forge
-  - defaults
 dependencies:
  - pip
  - numpy
