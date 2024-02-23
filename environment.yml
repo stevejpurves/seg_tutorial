@@ -1,15 +1,14 @@
 name: seg-tutorial-phase
 channels:
+  - https://repo.mamba.pm/emscripten-forge
   - conda-forge
-  - defaults
 dependencies:
  - pip
  - numpy
  - scipy
  - matplotlib
  - ipywidgets
- - jupyter
- - jupyterlab
- - pip:
-   - segyio
-   - tqdm
+ # - jupyter
+ # - jupyterlab
+ - segyio
+ - tqdm
